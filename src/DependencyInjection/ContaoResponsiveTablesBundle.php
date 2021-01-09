@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace namespace Rwd\ContaoResponsiveTablesBundle\DependencyInjection;
+namespace Rwd\ContaoResponsiveTablesBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
