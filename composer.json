@@ -1,0 +1,60 @@
+{
+  "name": "romeniwebdesign/contao-responsive-table-bundle",
+  "type": "contao-bundle",
+  "description": "Contao Bundle for Responsive HTML Tables",
+  "keywords": [
+    "contao",
+    "tables",
+    "responsive"
+  ],
+  "homepage": "https://contao.org",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Romeni WebDesign",
+      "homepage": "https://github.com/romeniwebdesign"
+    },
+    {
+      "name": "Christian Romeni",
+      "homepage": "https://github.com/christianromeni"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "contao/core-bundle": "^4.9",
+    "symfony/config": "^4.4 || ^5.1",
+    "symfony/dependency-injection": "^4.4 || ^5.1",
+    "symfony/http-kernel": "^4.4 || ^5.1"
+  },
+  "conflict": {
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0",
+    "contao/easy-coding-standard": "^2.0",
+    "phpunit/phpunit": "^8.4",
+    "symfony/phpunit-bridge": "^4.4 || ^5.1"
+  },
+  "extra": {
+    "contao-manager-plugin": "Rwd\\ContaoResponsiveTablesBundle\\ContaoManager\\Plugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rwd\\ContaoResponsiveTablesBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rwd\\ContaoResponsiveTablesBundle\\Tests\\": "tests/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/contao/skeleton-bundle/issues",
+    "source": "https://github.com/contao/skeleton-bundle"
+  },
+  "scripts": {
+    "cs-fixer": [
+      "vendor/bin/ecs check src/ tests/ --fix --ansi"
+    ]
+  }
+}
