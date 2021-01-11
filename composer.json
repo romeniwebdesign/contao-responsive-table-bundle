@@ -36,16 +36,16 @@
     "symfony/phpunit-bridge": "^4.4 || ^5.1"
   },
   "extra": {
-    "contao-manager-plugin": "Rwd\\ContaoResponsiveTablesBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Rwd\\ResponsiveTablesBundle\\ContaoManager\\Plugin"
   },
   "autoload": {
     "psr-4": {
-      "Rwd\\ContaoResponsiveTablesBundle\\": "src/"
+      "Rwd\\ResponsiveTablesBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Rwd\\ContaoResponsiveTablesBundle\\Tests\\": "tests/"
+      "Rwd\\ResponsiveTablesBundle\\Tests\\": "tests/"
     }
   },
   "support": {

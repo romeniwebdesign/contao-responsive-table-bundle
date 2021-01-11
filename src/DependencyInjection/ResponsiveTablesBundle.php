@@ -10,14 +10,14 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace Rwd\ContaoResponsiveTablesBundle\DependencyInjection;
+namespace Rwd\ResponsiveTablesBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoResponsiveTablesExtension extends Extension
+class ResponsiveTablesExtension extends Extension
 {
     public function load(array $mergedConfig, ContainerBuilder $container): void
     {

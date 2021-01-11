@@ -3,14 +3,14 @@
 declare(strict_types=1);
 
 /*
- * This file is part of [package name].
+ * This file is part of contao-responsive-tables-bundle.
  *
- * (c) John Doe
+ * (c) Christian Romeni
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Rwd\ContaoResponsiveTablesBundle\Module;
+namespace Rwd\ContaoResponsiveTablesBundle;
 
 class ResponsiveTableWizard extends TableWizard
 {

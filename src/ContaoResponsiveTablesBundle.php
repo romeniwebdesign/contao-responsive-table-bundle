@@ -3,17 +3,17 @@
 declare(strict_types=1);
 
 /*
- * This file is part of [package name].
+ * This file is part of contao-responsive-tables-bundle.
  *
- * (c) John Doe
+ * (c) Christian Romeni
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Rwd\ContaoResponsiveTablesBundle;
+namespace Rwd\ResponsiveTablesBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoResponsiveTablesBundle extends Bundle
+class ResponsiveTablesBundle extends Bundle
 {
 }

@@ -1,3 +1,6 @@
 <?php
 
-$GLOBALS['BE_FFL']['tableWizard'] = 'ResponsiveTableWizard';
+
+
+$GLOBALS['TL_CTE']['texts']['tableResponsive'] = \Rwd\ContaoCustomArticlesBundle\ContentTable::class;
+$GLOBALS['BE_FFL']['responsiveTableWizard'] = \Rwd\ContaoCustomArticlesBundle\ResponsiveTableWizard::class;
